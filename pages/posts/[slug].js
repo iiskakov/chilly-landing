@@ -20,12 +20,15 @@ export default function Post({post, morePosts, preview}) {
     return <ErrorPage statusCode={404} />;
   }
   var input;
-  var pa = "Gi2Ckjb9yyYM";
+  const pa = "Gi2Ckjb9yyYM";
+  const pa2 = " Gi2Ckjb9yyYM";
+  const authorized = false;
 
   if (typeof window !== "undefined") {
     input = prompt("Пожалуйста, введите пароль", " ");
 
-    if (input !== pa) {
+    authorized = input === pa || input === pa2;
+    if (!authorized) {
       input = prompt("Неверный пароль, попробуйте снова", " ");
     }
   }
@@ -34,7 +37,7 @@ export default function Post({post, morePosts, preview}) {
     <Layout preview={preview}>
       <Container>
         <Header />
-        {router.isFallback || input !== pa ? (
+        {router.isFallback || authorized === "false" ? (
           <PostTitle> </PostTitle>
         ) : (
           <>
