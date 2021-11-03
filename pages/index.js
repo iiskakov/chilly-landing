@@ -16,7 +16,7 @@ export default function Index({preview, allPosts}) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>chilly.kz</title>
+          <title>чилли продакшн</title>
         </Head>
         <Container>
           <Intro />
