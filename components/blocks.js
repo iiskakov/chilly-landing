@@ -15,7 +15,7 @@ export default function Blocks() {
             <div className={styles.pacmanBottom}></div>
           </div>
 
-          <div className="space-x-2 whitespace-nowrap" id={styles.scrollText}>
+          <div className="space-x-6 whitespace-nowrap" id={styles.scrollText}>
             {projects.map((project) => (
               <span className=" text-xl md:text-2xl font-bold tracking-tighter leading-5">
                 {project}
