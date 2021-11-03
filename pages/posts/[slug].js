@@ -25,7 +25,9 @@ export default function Post({post, morePosts, preview}) {
   if (typeof window !== "undefined") {
     input = prompt("Пожалуйста, введите пароль", " ");
 
-    if (input === pa) alert("Ура!");
+    if (input !== pa) {
+      input = prompt("Неверный пароль, попробуйте снова", " ");
+    }
   }
 
   return (
