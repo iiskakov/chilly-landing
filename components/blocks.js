@@ -26,9 +26,9 @@ export default function Blocks() {
         <div className=" border-l-2 md:border-l-4 border-black h-28"></div>
         <div className="h-32 flex-1 border-t-2 border-b-2 md:border-t-4 md:border-b-4 border-black">
           <h1 className="text-xs md:text-sm  font-bold tracking-tighter">
-            производим:
+            производим рекламу, клипы и ролики уже более 10 лет.
             <br />
-            рекламу, клипы, ролики, 3d
+            <br />
           </h1>
         </div>
       </section>
