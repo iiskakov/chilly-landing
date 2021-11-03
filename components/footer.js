@@ -10,7 +10,7 @@ export default function Footer() {
             → написать в <span className="text-blue-400">телеграм</span>
           </a>
         </span>
-        <div class="border-t-2 border-black md:border-t-4"></div>
+        <div className="border-t-2 border-black md:border-t-4"></div>
       </Container>
     </footer>
   );
