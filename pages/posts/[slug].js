@@ -20,7 +20,7 @@ export default function Post({post, morePosts, preview}) {
     return <ErrorPage statusCode={404} />;
   }
   var input;
-  var pa = "cool";
+  var pa = "Gi2Ckjb9yyYM";
 
   if (typeof window !== "undefined") {
     input = prompt("Пожалуйста, введите пароль", " ");
