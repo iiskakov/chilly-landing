@@ -20,8 +20,6 @@ export default function Layout({preview, children}) {
       // Call handler right away so state gets updated with initial window size
       handleResize();
 
-      console.log(vh);
-
       // Remove event listener on cleanup
       return () => window.removeEventListener("resize", handleResize);
     }

@@ -5,7 +5,6 @@ import {Leva, useControls} from "leva";
 
 function Suzi(props) {
   const {nodes} = useGLTF("/chili7.glb");
-  console.log(nodes);
   const materialProps = useControls({
     thickness: {value: 5, min: 0, max: 20},
     roughness: {value: 1, min: 0, max: 1, step: 0.1},
