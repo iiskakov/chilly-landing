@@ -13,7 +13,7 @@ module.exports = {
       0: "0",
       ...theme("spacing"),
       full: "100%",
-      screen: "calc(var(--vh) * 80)",
+      screen: "calc(var(--vh) * 90)",
     }),
     extend: {
       colors: {
