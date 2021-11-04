@@ -29,7 +29,7 @@ export default function Post({post, morePosts, preview}) {
 
     authorized = input === pa || input === pa2;
     if (!authorized) {
-      input = prompt("Неверный пароль, попробуйте снова", " ");
+      alert("Неверный пароль :(");
     }
   }
 
@@ -37,7 +37,7 @@ export default function Post({post, morePosts, preview}) {
     <Layout preview={preview}>
       <Container>
         <Header />
-        {router.isFallback || authorized === "false" ? (
+        {router.isFallback || authorized === false ? (
           <PostTitle> </PostTitle>
         ) : (
           <>
