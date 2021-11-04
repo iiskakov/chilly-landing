@@ -29,7 +29,7 @@ export default function Layout({preview, children}) {
   return (
     <>
       <Meta />
-      <div className="min-h-screen">
+      <div className="min-h-screen sticky">
         <main>{children}</main>
         <Footer />
       </div>

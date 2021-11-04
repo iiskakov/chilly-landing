@@ -2,6 +2,7 @@ import Container from "../components/container";
 import MoreStories from "../components/more-stories";
 import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
+import Suzanne from "../components/suzanne";
 import Description from "../components/description";
 import Blocks from "../components/blocks";
 import Layout from "../components/layout";
@@ -34,6 +35,7 @@ export default function Index({preview, allPosts}) {
           {/* )} */}
           {/* {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
         </Container>
+        <Suzanne className="fixed" />
       </Layout>
     </>
   );
