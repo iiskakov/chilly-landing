@@ -8,9 +8,9 @@
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
 
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
+  -moz-animation: my-animation 30s linear infinite;
+  -webkit-animation: my-animation 30s linear infinite;
+  animation: my-animation 30s linear infinite;
 }
 
 /* for Firefox */
@@ -131,44 +131,27 @@
   }
 }
 
-@keyframes eat {
-  0% {
-    box-shadow: 100px 65px 0 0 black, 300px 65px 0 0 black, 500px 65px 0 0 black,
-      700px 65px 0 0 black, 900px 65px 0 0 black, 1100px 65px 0 0 black,
-      1300px 65px 0 0 black;
-  }
-
-  100% {
-    box-shadow: 0px 65px 0 0 black, 100px 65px 0 0 black, 300px 65px 0 0 black,
-      500px 65px 0 0 black, 700px 65px 0 0 black, 900px 65px 0 0 black,
-      1100px 65px 0 0 black;
-  }
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
 }
 
-@-moz-keyframes eat {
-  0% {
-    box-shadow: 100px 65px 0 0 black, 300px 65px 0 0 black, 500px 65px 0 0 black,
-      700px 65px 0 0 black, 900px 65px 0 0 black, 1100px 65px 0 0 black,
-      1300px 65px 0 0 black;
-  }
-
-  100% {
-    box-shadow: 0px 65px 0 0 black, 100px 65px 0 0 black, 300px 65px 0 0 black,
-      500px 65px 0 0 black, 700px 65px 0 0 black, 900px 65px 0 0 black,
-      1100px 65px 0 0 black;
-  }
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
 }
 
-@-webkit-keyframes eat {
-  0% {
-    box-shadow: 100px 65px 0 0 black, 300px 65px 0 0 black, 500px 65px 0 0 black,
-      700px 65px 0 0 black, 900px 65px 0 0 black, 1100px 65px 0 0 black,
-      1300px 65px 0 0 black;
-  }
+.marquee p {
+  display: inline-block;
+}
 
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
   100% {
-    box-shadow: 0px 65px 0 0 black, 100px 65px 0 0 black, 300px 65px 0 0 black,
-      500px 65px 0 0 black, 700px 65px 0 0 black, 900px 65px 0 0 black,
-      1100px 65px 0 0 black;
+    transform: translate3d(-50%, 0, 0);
   }
 }

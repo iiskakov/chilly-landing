@@ -7,6 +7,7 @@ export default function Blocks() {
     "bi group",
     "beeline",
     "forte bank",
+    "🌶️",
     "coca-cola",
     "kaspi",
     "крыша",
@@ -24,12 +25,21 @@ export default function Blocks() {
             <div className={styles.pacmanBottom}></div>
           </div>
 
-          <div className="space-x-6 whitespace-nowrap" id={styles.scrollText}>
-            {projects.map((project) => (
-              <span className=" text-xl md:text-2xl font-bold tracking-tighter leading-5">
-                {project}
-              </span>
-            ))}
+          <div className={styles.wrapper}>
+            <div className={styles.marquee}>
+              <p
+                style={{wordSpacing: 30}}
+                className="text-xl md:text-2xl font-bold"
+              >
+                сбер beeline крыша kaspi magnum bi-group{"\u00A0"}️
+              </p>
+              <p
+                style={{wordSpacing: 30}}
+                className="text-xl md:text-2xl font-bold"
+              >
+                сбер beeline крыша kaspi magnum bi-group{"\u00A0"}
+              </p>
+            </div>
           </div>
         </div>
         <div className=" border-l-2 md:border-l-4 border-black h-28"></div>
