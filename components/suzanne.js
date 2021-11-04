@@ -41,9 +41,9 @@ export default function Suzanne() {
           <Suzi />
           <Environment {...envProps} files="adams_place_bridge_1k.hdr" />
           <group rotation={[0, 0, Math.PI / 4]}>
-            <mesh position={[0, 0, -10]} material-color="hotpink">
-              <planeGeometry args={[20, 2]} />
-            </mesh>
+            {/* <mesh position={[0, 0, -10]} material-color="#b41d1d"> */}
+            {/*   <planeGeometry args={[20, 2]} /> */}
+            {/* </mesh> */}
             <mesh position={[0, 0, -10]} material-color="hotpink">
               <planeGeometry args={[2, 20]} />
             </mesh>
