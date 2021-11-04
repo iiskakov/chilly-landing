@@ -1,6 +1,6 @@
 import {Suspense} from "react";
 import {Canvas} from "@react-three/fiber";
-import {useGLTF, Environment, TrackballControls} from "@react-three/drei";
+import {useGLTF, Environment, OrbitControls} from "@react-three/drei";
 import {Leva, useControls} from "leva";
 
 function Suzi(props) {
@@ -49,7 +49,7 @@ export default function Suzanne() {
             </mesh>
           </group>
         </Suspense>
-        <TrackballControls />
+        <OrbitControls />
       </Canvas>
     </>
   );
