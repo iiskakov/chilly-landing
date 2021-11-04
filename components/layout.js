@@ -31,8 +31,8 @@ export default function Layout({preview, children}) {
       <Meta />
       <div className="min-h-screen">
         <main>{children}</main>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }
