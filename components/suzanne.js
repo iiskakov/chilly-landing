@@ -44,7 +44,7 @@ export default function Suzanne() {
             {/* <mesh position={[0, 0, -10]} material-color="#b41d1d"> */}
             {/*   <planeGeometry args={[20, 2]} /> */}
             {/* </mesh> */}
-            <mesh position={[0, 0, -10]} material-color="crimson">
+            <mesh position={[0, 0, -10]} material-color="seagreen">
               <planeGeometry args={[2, 20]} />
             </mesh>
           </group>
