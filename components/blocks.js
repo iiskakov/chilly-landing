@@ -1,7 +1,16 @@
 import styles from "./blocks.module.css";
 
 export default function Blocks() {
-  const projects = ["сбер", "магнум", "bi group", "beeline", "forte bank"];
+  const projects = [
+    "сбер",
+    "магнум",
+    "bi group",
+    "beeline",
+    "forte bank",
+    "coca-cola",
+    "kaspi",
+    "крыша",
+  ];
 
   return (
     <>
