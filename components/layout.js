@@ -6,7 +6,7 @@ export default function Layout({preview, children}) {
   return (
     <>
       <Meta />
-      <div style={{minHeight: "94vh"}}>
+      <div style={{minHeight: "90vh"}}>
         <main>{children}</main>
       </div>
       <Footer />
