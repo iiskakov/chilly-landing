@@ -31,13 +31,13 @@ export default function Blocks() {
                 style={{wordSpacing: 30}}
                 className="text-xl md:text-2xl font-bold"
               >
-                сбер beeline крыша kaspi magnum bi-group{"\u00A0"}️
+                sberbank beeline danone fortebank foodmaster efes пиала pampers bi-group{"\u00A0"}
               </p>
               <p
                 style={{wordSpacing: 30}}
                 className="text-xl md:text-2xl font-bold"
               >
-                сбер beeline крыша kaspi magnum bi-group{"\u00A0"}
+                sberbank beeline danone fortebank foodmaster efes пиала pampers bi-group{"\u00A0"}
               </p>
             </div>
           </div>
@@ -48,7 +48,15 @@ export default function Blocks() {
             производим рекламу, клипы и ролики больше 10 лет
             <br />
             <br />
-            приходите в гости к нам в новый офис на кабанбай батыра, 115
+            смотрите{" "}
+
+                    <span className="hover:underline font-bold leading-6 text-right w-screen lg:text-left mb-0 lg:mb-0 lg:pr-4 lg:w-1/2">
+
+            <a href="https://vimeo.com/brodyagin">→ наши работы</a>
+        </span>
+            <br />
+            <br />
+            или приходите в гости к нам в новый офис на кабанбай батыра, 115
           </h1>
         </div>
       </section>
