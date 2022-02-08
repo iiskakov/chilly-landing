@@ -52,7 +52,7 @@
 }
 
 .pacmanTop {
-  background-color: yellow;
+  background-color: #f2e500;
   height: 50px;
   width: 100px;
   border-radius: 50px 50px 0 0;
@@ -60,7 +60,7 @@
 }
 
 .pacmanBottom {
-  background-color: yellow;
+  background-color: #f2e500;
   height: 50px;
   width: 100px;
   border-radius: 0 0 50px 50px;
