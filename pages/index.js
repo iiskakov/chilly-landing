@@ -20,7 +20,7 @@ const imageData = [
   {
     id: 2,
     url: "https://res.cloudinary.com/dekfylowi/image/upload/f_auto,q_auto/v63h5nj17e5mhmkacg0i",
-    title: "У каждого своя история",
+    title: "Everyone Has A Story",
     client: "Kaspi",
     director: "Malik Zenger",
     videoId: "358008202",
@@ -28,20 +28,21 @@ const imageData = [
   {
     id: 3,
     url: "https://res.cloudinary.com/dekfylowi/image/upload/f_auto,q_auto/euni0t0iz32aaymh7c2j",
-    title: "Живите счастьем",
+    title: "Live with Happiness",
     client: "BI Group",
     director: "Malik Zenger",
     videoId: "620732800",
   },
   {
     id: 4,
-    url: "https://res.cloudinary.com/dekfylowi/image/upload/f_auto,q_auto/pcnrbo5v0hgczfnv7shk", // Placeholder URL
-    title: "Вкусы стран мира",
+    url: "https://res.cloudinary.com/dekfylowi/image/upload/f_auto,q_auto/pcnrbo5v0hgczfnv7shk",
+    title: "Flavors of the World",
     client: "Big Bob",
     director: "Kostya Sobol",
     videoId: "778775740",
   },
 ];
+
 
 function Image({ image }) {
   const ref = useRef(null);
