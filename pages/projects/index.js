@@ -399,7 +399,7 @@ function GridItem({ image, index }) {
         onMouseLeave={() => setHovered(false)}
         onClick={() => setModalOpen(true)}
       >
-        <img src={image.url} alt={`Image ${image.id}`} />
+        <img src={image.url}  />
         {isHovered && (
           <div className="overlay">
             <div className="play-button">
