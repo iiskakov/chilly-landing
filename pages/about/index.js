@@ -12,7 +12,7 @@ const AboutPage = () => {
 
       {/* Overlay Content */}
       <div className="relative z-2 flex flex-col justify-center items-center h-full bg-black bg-opacity-50">
-        <h1 className="text-white text-5xl font-bold mb-4">Chilly Production Team</h1>
+        <h1 className="text-white text-5xl font-bold mb-4">Chilly Production</h1>
         <p className="text-white text-lg mb-8 max-w-[80vw] md:max-w-xl text-center">
           We are a dynamic and innovative team, committed to creating extraordinary productions and experiences. Our passion for storytelling and creativity drives us to deliver high-quality projects in every aspect of our work.
         </p>
