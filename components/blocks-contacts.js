@@ -45,14 +45,11 @@ export default function Blocks() {
         <div className=" border-l-2 md:border-l-4 border-black h-28"></div>
         <div className="h-32 flex-1 border-t-2 border-b-2 md:border-t-4 md:border-b-4 border-black">
           <h1 className="text-xs md:text-sm  font-bold tracking-tighter">
-            9 years in the business
+            let's work together
             <br />
             <br />
-           watch{" "}
-
                     <span className="hover:underline font-bold leading-6 text-right w-screen lg:text-left mb-0 lg:mb-0 lg:pr-4 lg:w-1/2">
-
-            <a href="https://vimeo.com/brodyagin">→ our works</a>
+                      <a mailto="hello@chilly.kz">hello@chilly.kz</a>
         </span>
             <br />
             <br />

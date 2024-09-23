@@ -3,3 +3,223 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+
+
+body {
+  --black: #000000;
+  --ash-black: #222;
+  --white: #fafafa;
+  --sky: #00ccff;
+  --green: #22dddd;
+  --blue: #1300ff;
+  --dusk: #6600ff;
+  --purple: #9900ff;
+  --pink: #ff0066;
+  --red: #fe0222;
+  --orange: #fd7702;
+  --yellow: #ffbb00;
+
+  --background: var(--black);
+  --accent: var(--white);
+
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--accent);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: 100px 0 40px;
+}
+
+h2 {
+  font-weight: 400;
+  margin: 50px 0 10px;
+}
+
+p {
+  margin: 0 0 30px 0;
+  font-size: 18px;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+header::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  opacity: 0.2;
+}
+
+header svg {
+  margin-right: 20px;
+}
+
+
+code {
+  font-family: input-mono, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--background);
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: 100px 0;
+}
+
+h2 {
+  margin: 0;
+  color: var(--accent);
+  left: calc(20%);
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  scroll-snap-align: center;
+  perspective: 500px;
+}
+
+
+
+section > div {
+  position: relative;
+  background: var(--black);
+  overflow: hidden;
+}
+
+
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--accent);
+  bottom: 100px;
+}
+
+#project-info {
+  position: fixed;
+}
+
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--accent);
+  bottom: 100px;
+}
+
+
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0; /* No gaps between items */
+}
+
+/* Grid item */
+.grid-item {
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* Image styling */
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Overlay on hover */
+.grid-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Play button styling */
+.grid-item .play-button {
+  width: 50px;
+  height: 50px;
+}
+
+/* Info section */
+.grid-item .info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+}
+
+.grid-item .info h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.grid-item .info p {
+  font-size: 12px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .no-scale-on-mobile {
+    transform: scale(1) !important;
+  }
+}
