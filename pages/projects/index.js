@@ -8,7 +8,7 @@ const imageData = [
   {
     "id": 1,
     "url": "https://i.vimeocdn.com/video/1562997565-aa98057052d24a3f6291295bd463026e147281a9879f27294a6588bf359fd1a6-d_640x360",
-    "title": "Big Bob. Вкусы стран мира",
+    "title": "Big Bob. Flavors of the World",
     "client": "",
     "director": "",
     "videoId": "778775740",
@@ -17,7 +17,7 @@ const imageData = [
   {
     "id": 2,
     "url": "https://i.vimeocdn.com/video/1263041461-fa58796356a66e578ef270d737ec45fba860d9715351b52e0_640x360",
-    "title": "BI group. Живите счастьем",
+    "title": "BI group. Live with Happiness",
     "client": "",
     "director": "",
     "videoId": "620732800"
@@ -33,7 +33,7 @@ const imageData = [
   {
     "id": 4,
     "url": "https://i.vimeocdn.com/video/1488546369-4f2746aa7dd0d5e4d14b5171d496836126e39a388d1be23ec8410503a1935b3c-d_640x360",
-    "title": "Жана Ерке",
+    "title": "Zhana Yerke",
     "client": "",
     "director": "",
     "videoId": "739677342"
@@ -41,7 +41,7 @@ const imageData = [
   {
     "id": 5,
     "url": "https://i.vimeocdn.com/video/1418389351-d4b0ee56ae0a3af884b900b1d1e8e9b631bbc3cf573d39a060eea937be4554af-d_640x360",
-    "title": "Aitube. Все свои",
+    "title": "Aitube. All Our Own",
     "client": "",
     "director": "",
     "videoId": "701969577"
@@ -49,7 +49,7 @@ const imageData = [
   {
     "id": 6,
     "url": "https://i.vimeocdn.com/video/1263047043-1da80933a16b4d00e4b122fa689984dbf9f5c5c5c126ca13c_640x360",
-    "title": "Кружка свежего. Шампунь.",
+    "title": "Krugka Svyezhego. Shampoo",
     "client": "",
     "director": "",
     "videoId": "620739427"
@@ -65,7 +65,7 @@ const imageData = [
   {
     "id": 8,
     "url": "https://i.vimeocdn.com/video/1663349943-ffa85293015dfea6a2d65c2b690ead6ff42d6047cef2fb84684b5c478542b33f-d_640x360",
-    "title": "Биг Бон против доставки",
+    "title": "Big Bon vs Delivery",
     "client": "",
     "director": "",
     "videoId": "822461601"
@@ -81,7 +81,7 @@ const imageData = [
   {
     "id": 10,
     "url": "https://i.vimeocdn.com/video/1419816498-b276387b6d07dd29db121cbea2d69837f436fd791afa47ce13929e7e22faa9bc-d_640x360",
-    "title": "Lactel. Живой йогурт",
+    "title": "Lactel. Live Yogurt",
     "client": "",
     "director": "",
     "videoId": "702736379"
@@ -89,7 +89,7 @@ const imageData = [
   {
     "id": 11,
     "url": "https://i.vimeocdn.com/video/1563011030-98b8f2d89a7452358dbd5681d047391c055aaaefbd429905e8224785beac21a8-d_640x360",
-    "title": "Lactel Легкое утро",
+    "title": "Lactel. Light Morning",
     "client": "",
     "director": "",
     "videoId": "778784537"
@@ -97,7 +97,7 @@ const imageData = [
   {
     "id": 12,
     "url": "https://i.vimeocdn.com/video/1419363089-31f1a9a31a7702a11d84f19d348c14e23fe989ab44f89670bad8f2be47e79226-d_640x360",
-    "title": "Лям от Forte Bank",
+    "title": "Million from Forte Bank",
     "client": "",
     "director": "",
     "videoId": "702499295"
@@ -105,7 +105,7 @@ const imageData = [
   {
     "id": 13,
     "url": "https://i.vimeocdn.com/video/1419076493-7b6377290886fe9634922af03ee04de16f953970985eb84212e03bd7fc1e8617-d_640x360",
-    "title": "Danone. Правильный завтрак",
+    "title": "Danone. Perfect Breakfast",
     "client": "",
     "director": "",
     "videoId": "702366047"
@@ -121,7 +121,7 @@ const imageData = [
   {
     "id": 15,
     "url": "https://i.vimeocdn.com/video/1374489012-630d873489efa46eb8429dd5a6d9dd0374bc50b1b0c772c906f173860fb953b4-d_640x360",
-    "title": "Kamistad baby",
+    "title": "Kamistad Baby",
     "client": "",
     "director": "",
     "videoId": "678206829"
@@ -137,7 +137,7 @@ const imageData = [
   {
     "id": 17,
     "url": "https://i.vimeocdn.com/video/1356445021-a0d38a44e9717219405d0e78c60c340486678126726b6397965479d87df84de5-d_640x360",
-    "title": "Простоквашино. Наурыз 2021",
+    "title": "Prostokvashino. Nauryz 2021",
     "client": "",
     "director": "",
     "videoId": "669630289"
@@ -145,7 +145,7 @@ const imageData = [
   {
     "id": 18,
     "url": "https://i.vimeocdn.com/video/1146748257-e560e6b870f0b9bc67445611dda78e786a9360a3e3f13bf51f4c7038da332d8a-d_640x360",
-    "title": "BI group. Вдохновляйте!",
+    "title": "BI group. Inspire!",
     "client": "",
     "director": "",
     "videoId": "554869552"
@@ -161,7 +161,7 @@ const imageData = [
   {
     "id": 20,
     "url": "https://i.vimeocdn.com/video/811517331-add104ed2887a483946b7e4684ffde808ec472963a16a062ae460bdc477096a4-d_640x360",
-    "title": "Каспи имиджевый ролик 3",
+    "title": "Kaspi 3",
     "client": "",
     "director": "",
     "videoId": "358008202"
@@ -177,7 +177,7 @@ const imageData = [
   {
     "id": 22,
     "url": "https://i.vimeocdn.com/video/821537556-a41010e6654d6e9f7316640aadab124ee6c1dd6be837b9de74e1e0da40e82dd8-d_640x360",
-    "title": "ForteBank - Кредит 2",
+    "title": "ForteBank - Credit 2",
     "client": "",
     "director": "",
     "videoId": "365708902"
@@ -193,7 +193,7 @@ const imageData = [
   {
     "id": 24,
     "url": "https://i.vimeocdn.com/video/821535864-3c0a19b473b6e9890bdf38140d2fcae782dcdb8eac7759d82561d3fdce3731ed-d_640x360",
-    "title": "ForteBank - Шаман",
+    "title": "ForteBank - Shaman",
     "client": "",
     "director": "",
     "videoId": "365707597"
@@ -201,7 +201,7 @@ const imageData = [
   {
     "id": 25,
     "url": "https://i.vimeocdn.com/video/781529560-dbff895bf137e9d593b169171a7ffc9c16ba5566c5db2d2f2896bc42d653679c-d_640x360",
-    "title": "Tunetank commercial. Change reality",
+    "title": "Tunetank commercial. Change Reality",
     "client": "",
     "director": "",
     "videoId": "335055882"
@@ -209,7 +209,7 @@ const imageData = [
   {
     "id": 26,
     "url": "https://i.vimeocdn.com/video/800331372-a5f709114cbb00b1bd2dcee3efa1b16e01613c333ef4627deb23043c3ac35f94-d_640x360",
-    "title": "Дермодрин - Зуд тревожит? Дермодрин поможет!",
+    "title": "Dermodrin - Itching? Dermodrin Helps!",
     "client": "",
     "director": "",
     "videoId": "349393327"
@@ -217,7 +217,7 @@ const imageData = [
   {
     "id": 27,
     "url": "https://i.vimeocdn.com/video/800331472-ce1e9e7215ebee079c00668a0d7bd1bbc674938711b0733b08c83a0d0f1a5466-d_640x360",
-    "title": "Цесна - Плов",
+    "title": "Tsesna - Pilaf",
     "client": "",
     "director": "",
     "videoId": "349393294"
@@ -225,7 +225,7 @@ const imageData = [
   {
     "id": 28,
     "url": "https://i.vimeocdn.com/video/800330969-0b3e1e6131d53ae1deb867b464762b0a941f98f065741456d4ebfcc044ee79ff-d_640x360",
-    "title": "Приложение Рахмет",
+    "title": "Rakhmet App",
     "client": "",
     "director": "",
     "videoId": "349392956"
@@ -233,7 +233,7 @@ const imageData = [
   {
     "id": 29,
     "url": "https://i.vimeocdn.com/video/824132441-10ea8728157a2d782eae4e04b86c4ca5205ee3e37bee05f61d63516e18d8e499-d_640x360",
-    "title": "Кружка Свежего - Бассейн",
+    "title": "Krugka Svyezhego - Pool",
     "client": "",
     "director": "",
     "videoId": "349392887"
@@ -241,7 +241,7 @@ const imageData = [
   {
     "id": 30,
     "url": "https://i.vimeocdn.com/video/789854499-de36a7b1dd69d1433b04d090c37b6a7229cc75fd7a8a710def2d4a14bb1459b2-d_640x360",
-    "title": "Kaspi - имиджевый ролик 2",
+    "title": "Kaspi 2",
     "client": "",
     "director": "",
     "videoId": "341284199"
@@ -257,7 +257,7 @@ const imageData = [
   {
     "id": 32,
     "url": "https://i.vimeocdn.com/video/789854906-d892fd5b5368bc1d0f89ee9610972a9be2b7e8e30c43d1d2e9df89a34abb55c7-d_640x360",
-    "title": "Chocolife - Жара",
+    "title": "Chocolife - Heat",
     "client": "",
     "director": "",
     "videoId": "341284476"
@@ -265,7 +265,7 @@ const imageData = [
   {
     "id": 33,
     "url": "https://i.vimeocdn.com/video/789860398-d645f5cd540f009e3e8fd4e51d85d4708223b73d73bec47293fcdcd551bfe073-d_640x360",
-    "title": "M-Ломбард _ Алтынай _ Королева",
+    "title": "M-Lombard _ Altynai _ Queen",
     "client": "",
     "director": "",
     "videoId": "341288934"
@@ -273,7 +273,7 @@ const imageData = [
   {
     "id": 34,
     "url": "https://i.vimeocdn.com/video/789858163-9cb2140db3bbfe3a926c2d36de23356c35b72d1fb359e7b9fbfa3e177948d74a-d_640x360",
-    "title": "Роллтон",
+    "title": "Rollton",
     "client": "",
     "director": "",
     "videoId": "341287052"
@@ -305,7 +305,7 @@ const imageData = [
   {
     "id": 38,
     "url": "https://i.vimeocdn.com/video/781530403-81426ec71611dfed2db78e3f37b22bb5d8e8fc56492fc063a64f3a36913f731b-d_640x360",
-    "title": "Kaspi - имиджевый ролик",
+    "title": "Kaspi",
     "client": "",
     "director": "",
     "videoId": "335056528"
@@ -313,7 +313,7 @@ const imageData = [
   {
     "id": 39,
     "url": "https://i.vimeocdn.com/video/781530201-c327ff017005f65a6c249963715f9e7aaa99a149aec634c3fff220a258fc6f3a-d_640x360",
-    "title": "Dove - 8 march",
+    "title": "Dove - 8 March",
     "client": "",
     "director": "",
     "videoId": "335056418"
@@ -321,7 +321,7 @@ const imageData = [
   {
     "id": 40,
     "url": "https://i.vimeocdn.com/video/781530024-5bf86863c79af6edb60c41b4babbf5e80a02c63728b3397674366ed4b8835c8b-d_640x360",
-    "title": "Рахат. С нами вкусней",
+    "title": "Rakhat. Tastier With Us",
     "client": "",
     "director": "",
     "videoId": "335056277"
@@ -329,7 +329,7 @@ const imageData = [
   {
     "id": 41,
     "url": "https://i.vimeocdn.com/video/781529958-1083998c977c3f95ab6f69d96288387c9d2b0bc567d4e54cf34f2f5737cd93f1-d_640x360",
-    "title": "Другой ты",
+    "title": "Another You",
     "client": "",
     "director": "",
     "videoId": "335056193"
@@ -337,7 +337,7 @@ const imageData = [
   {
     "id": 42,
     "url": "https://i.vimeocdn.com/video/781529316-d5d7228ed7514df8e39fa2bb30308f0d1e86287cce418504016a707214734640-d_640x360",
-    "title": "Tunetank commercial. Feel what you see",
+    "title": "Tunetank commercial. Feel What You See",
     "client": "",
     "director": "",
     "videoId": "335055611"
@@ -345,7 +345,7 @@ const imageData = [
   {
     "id": 43,
     "url": "https://i.vimeocdn.com/video/1663350257-77cfcdd6900ae32bb8981903a8679202deac51c01cbd9b515dee5d40ca986eed-d_640x360",
-    "title": "Ибуфен. Даже папа может",
+    "title": "Ibuprofen. Even Dad Can Do It",
     "client": "",
     "director": "",
     "videoId": "822461846"
@@ -361,12 +361,13 @@ const imageData = [
   {
     "id": 45,
     "url": "https://i.vimeocdn.com/video/798946755-a048019fd11320e1f4993e8bfc05e3da228e51b40f494eda427700f36eebf6c9-d_640x360",
-    "title": "Алтын Бомба",
+    "title": "Altyn Bomba",
     "client": "",
     "director": "",
     "videoId": "348343200"
   }
 ];
+
 
 function GridItem({ image, index }) {
   const [isModalOpen, setModalOpen] = useState(false);
