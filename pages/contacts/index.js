@@ -3,13 +3,13 @@ const ContactPage = () => {
     <div className="md:pt-[25vh] pt-10 bg-black text-white min-h-screen flex flex-col items-center justify-center">
       {/* General Enquiries Section */}
       <div className="text-center mb-8">
-        <p className="uppercase text-sm mb-2">Контакты</p>
+        <p className="uppercase text-sm mb-2">Contacts</p>
         <p className="text-3xl font-bold mb-4">
           <a href="mailto:hello@chilly.kz" className="underline">hello@chilly.kz</a> /
           <a href="tel:+77781907608" className="underline"> +7 778 19076 08</a>
         </p>
         <p className="text-3xl font-bold">
-          <a href="https://t.me/chilly_kz" className="underline">Телеграм</a>
+          <a href="https://t.me/chilly_kz" className="underline">Telegram</a>
         </p>
       </div>
 
