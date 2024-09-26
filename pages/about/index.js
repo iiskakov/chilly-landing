@@ -24,7 +24,16 @@ const AboutPage = () => {
           rel="noopener noreferrer"
           className="text-white text-lg underline"
         >
-          Instagram: @chilly_production
+          Instagram
+        </a>
+        {/* Instagram Link */}
+        <a
+          href="https://vimeo.com/chillyproduction"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white text-lg underline"
+        >
+         Vimeo
         </a>
       </div>
     </div>
