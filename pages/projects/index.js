@@ -20,7 +20,8 @@ const imageData = [
     "title": "BI group. Live with Happiness",
     "client": "",
     "director": "",
-    "videoId": "620732800"
+    "videoId": "620732800",
+    "category": "Commercial"
   },
   {
     "id": 3,
@@ -28,7 +29,8 @@ const imageData = [
     "title": "Halyk Easy",
     "client": "",
     "director": "",
-    "videoId": "778781222"
+    "videoId": "778781222",
+    "category": "Commercial"
   },
   {
     "id": 4,
@@ -36,7 +38,8 @@ const imageData = [
     "title": "Zhana Yerke",
     "client": "",
     "director": "",
-    "videoId": "739677342"
+    "videoId": "739677342",
+    "category": "Commercial"
   },
   {
     "id": 5,
@@ -52,7 +55,8 @@ const imageData = [
     "title": "Krugka Svyezhego. Shampoo",
     "client": "",
     "director": "",
-    "videoId": "620739427"
+    "videoId": "620739427",
+    "category": "Commercial"
   },
   {
     "id": 7,
@@ -60,7 +64,8 @@ const imageData = [
     "title": "BigBon WOK",
     "client": "",
     "director": "",
-    "videoId": "822461943"
+    "videoId": "822461943",
+    "category": "Post"
   },
   {
     "id": 8,
@@ -76,7 +81,8 @@ const imageData = [
     "title": "BigBon RAMEN",
     "client": "",
     "director": "",
-    "videoId": "822462045"
+    "videoId": "822462045",
+    "category": "Post"
   },
   {
     "id": 10,

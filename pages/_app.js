@@ -35,8 +35,11 @@ const Header = () => {
         <Link href="/">
           <Logo />
         </Link>
-        <Link className="text-xl md:text-3xl" href="/projects">
-          Projects
+        <Link className="text-xl md:text-3xl" href="/projects?category=Commercial">
+          Commercials
+        </Link>
+        <Link className="text-xl md:text-3xl" href="/projects?category=Post">
+          Post production
         </Link>
         <Link className="text-xl md:text-3xl" href="/about">
           About
