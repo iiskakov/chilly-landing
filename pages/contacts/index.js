@@ -9,7 +9,7 @@ const ContactPage = () => {
           <a href="tel:+77781907608" className="underline"> +7 778 19076 08</a>
         </p>
         <p className="text-3xl font-bold">
-          <a href="https://t.me/victorbrodyagin" className="underline">Telegram</a>
+          <a href="https://t.me/+77781907608" className="underline">Telegram</a>
         </p>
       </div>
 
