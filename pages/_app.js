@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header className="md:top-0 md:bottom-auto xs:top-auto bottom-0">
       <div
-        className="items-center px-12 py-4 flex flex-row justify-between w-full"
+        className="items-center px-3 md:px-12 py-4 flex flex-row justify-between w-full"
         style={{
           backdropFilter: 'blur(22px) brightness(0.8)', // Adjust the values as needed
           WebkitBackdropFilter: 'blur(22px) brightness(0.8)',
