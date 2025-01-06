@@ -4,7 +4,7 @@ const AboutPage = () => {
       {/* Full Screen Image */}
       <div className="absolute inset-0">
         <img
-          src="https://res.cloudinary.com/dekfylowi/image/upload/v1736148456/brbew1vkgsvo4wju94ry.webp" // Replace this with the actual URL of the team image
+          src="https://res.cloudinary.com/dekfylowi/image/upload/v1736151028/fkpc1c9ne85xu2s6sxun.webp" // Replace this with the actual URL of the team image
           alt="Team"
           className="w-full h-full object-cover"
         />
