@@ -40,11 +40,13 @@ export default function App() {
         onLoadStart={() => console.log("Video load started")}
         onLoadedData={() => console.log("Video data loaded")}
       />
-      {/* <div className="absolute top-1 right-8 md:bottom-1 md:right-4">
-        <h1 className="m-1 text-white text-5xl md:text-7xl lg:text-8xl font-bold">
-          Chilly Production
-        </h1>
-      </div> */}
+      
+      <div className="absolute inset-0 z-2 flex flex-col justify-center items-center bg-black bg-opacity-30">
+        <h1 className="text-white text-5xl font-bold mb-4">Chilly Production</h1>
+        <p className="text-white text-xl mb-8 max-w-[80vw] md:max-w-xl text-center">
+          Chilly Production is a production house based in Almaty, Kazakhstan, established in 2020. We specialize in creating unique video projects with style and personality. From vibrant music videos and captivating commercials to short films and engaging vlogs, we bring stories to life that inspire and leave a lasting impression.
+        </p>
+      </div>
     </div>
   );
 }

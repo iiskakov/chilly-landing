@@ -300,7 +300,7 @@ const imageData =
     "client": "",
     "director": "",
     "videoId": "358008202",
-    "category": "Commercial"
+    "category": "Post"
   },
   {
     "id": 34,

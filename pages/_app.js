@@ -41,9 +41,9 @@ const Header = () => {
         <Link className="text-xl md:text-3xl" href="/projects?category=Post">
           Post production
         </Link>
-        <Link className="text-xl md:text-3xl" href="/about">
+        {/* <Link className="text-xl md:text-3xl" href="/about">
           About
-        </Link>
+        </Link> */}
         <Link className="text-xl md:text-3xl" href="/contacts">
           Contacts
         </Link>
