@@ -17,7 +17,7 @@ const ContactPage = () => {
           <p className="uppercase text-sm mb-2">Contacts</p>
           <p className="text-3xl font-bold mb-4">
             <a href="mailto:hello@chilly.kz" className="underline">hello@chilly.kz</a> /
-            <a href="tel:+77781907608" className="underline"> +7 778 19076 08</a>
+            <a href="tel:+77781907608" className="underline"> +7 778 190 76 08</a>
           </p>
           <p className="text-3xl font-bold">
             <a href="https://t.me/+77781907608" className="underline">Telegram</a>
